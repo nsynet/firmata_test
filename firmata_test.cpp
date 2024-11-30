@@ -348,7 +348,7 @@ void MyFrame::OnSliderDrag(wxScrollEvent &event)
 void MyFrame::OnPort(wxCommandEvent &event)
 {
 	int id = event.GetId();
-	wxString name = port_menu->FindItem(id)->GetLabel();
+	wxString name = port_menu->FindItem(id)->GetItemLabel();
 
 	port.Close();
 	init_data();

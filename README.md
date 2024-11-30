@@ -10,6 +10,12 @@ and easy testing!
 
 See [Downloads](https://github.com/firmata/firmata_test/downloads) for binaries.
 
+Usage
+---
+For linux:
+```
+sudo ./firmata_test
+```
 Additional Instructions
 ---
 

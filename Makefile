@@ -9,7 +9,7 @@ TARGET = $(PROG)
 FINAL_TARGET = $(TARGET)
 CXX = g++
 STRIP = strip
-WXCONFIG = ~/wxwidgets/2.8.10.gtk2.teensy/bin/wx-config
+WXCONFIG = wx-config
 CPPFLAGS = -O2 -Wall -Wno-strict-aliasing `$(WXCONFIG) --cppflags` -D$(OS)
 LIBS = `$(WXCONFIG) --libs`
 else ifeq ($(OS), MACOSX)
